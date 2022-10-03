@@ -14,9 +14,9 @@ function criandoUl (arr){
     
     let element = arr[i]
     let contador = 0
-    contador = contador + element.value
+    contador += element.value
     img.src = element.imagem
-    button.innerText = 'Entrada'
+    button.innerText = element.categoryID
     p.innerText = `R$ ${element.value},00`
 
     span.innerText = `R$ ${contador},00`
